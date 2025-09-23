@@ -1,0 +1,60 @@
+!TITLE Converted from LATTICE EDITOR: QFS LATTICE 16 Bell full ring.opt[*].  Thu Aug 21 16:10:21 2025
+
+!  Kinetic energy=270 MeV, mass=1862.99 MeV
+!  BetaX=1.00311 m,  AlphaX=1.55707e-16,  BetaY=4.26415 m,  AlphaY=-9.81217e-17 
+!  DispX=0.000399278 m,  DispPX=-1.33065e-15,  DispY=0 m,  DispPY=0 
+
+BM: SBEND,  L=0.25196415,  ANGLE=0.1308996936;
+O2: DRIFT, L=0.13 ;
+QF: QUADRUPOLE,  L=0.1,  K1=5.512654054;
+QF0: QUADRUPOLE,  L=0.1,  K1=4.707402493;
+QD: QUADRUPOLE,  L=0.1,  K1=-5.224033423;
+QF1: QUADRUPOLE,  L=0.1,  K1=5.872497599;
+QD1: QUADRUPOLE,  L=0.1,  K1=-5.874188915;
+RA: DRIFT, L=0.8125 ;
+
+MACHINE: LINE=(QD1, O2, RA, O2, QF1, QF1, O2, RA, O2, QD1, QD, O2, BM, O2,  
+QF, QF, O2, BM, O2, QD, QD, O2, BM, O2, QF, QF, O2, RA, O2, QD, QD, O2, RA,  
+O2, QF0, QF0, O2, RA, O2, QD, QD, O2, RA, O2, QF, QF, O2, BM, O2, QD, QD,  
+O2, BM, O2, QF, QF, O2, BM, O2, QD, QD1, O2, RA, O2, QF1, QF1, O2, RA, O2,  
+QD1,
+
+QD1, O2, RA, O2, QF1, QF1, O2, RA, O2, QD1, QD, O2, BM, O2, QF, QF,  
+O2, BM, O2, QD, QD, O2, BM, O2, QF, QF, O2, RA, O2, QD, QD, O2, RA, O2,  
+QF0, QF0, O2, RA, O2, QD, QD, O2, RA, O2, QF, QF, O2, BM, O2, QD, QD, O2,  
+BM, O2, QF, QF, O2, BM, O2, QD, QD1, O2, RA, O2, QF1, QF1, O2, RA, O2, QD1,
+  
+QD1, O2, RA, O2, QF1, QF1, O2, RA, O2, QD1, QD, O2, BM, O2, QF, QF, O2, BM,  
+O2, QD, QD, O2, BM, O2, QF, QF, O2, RA, O2, QD, QD, O2, RA, O2, QF0, QF0,  
+O2, RA, O2, QD, QD, O2, RA, O2, QF, QF, O2, BM, O2, QD, QD, O2, BM, O2, QF,  
+QF, O2, BM, O2, QD, QD1, O2, RA, O2, QF1, QF1, O2, RA, O2, QD1, 
+
+QD1, O2,  
+RA, O2, QF1, QF1, O2, RA, O2, QD1, QD, O2, BM, O2, QF, QF, O2, BM, O2, QD,  
+QD, O2, BM, O2, QF, QF, O2, RA, O2, QD, QD, O2, RA, O2, QF0, QF0, O2, RA,  
+O2, QD, QD, O2, RA, O2, QF, QF, O2, BM, O2, QD, QD, O2, BM, O2, QF, QF, O2,  
+BM, O2, QD, QD1, O2, RA, O2, QF1, QF1, O2, RA, O2, QD1, 
+
+QD1, O2, RA, O2,  
+QF1, QF1, O2, RA, O2, QD1, QD, O2, BM, O2, QF, QF, O2, BM, O2, QD, QD, O2,  
+BM, O2, QF, QF, O2, RA, O2, QD, QD, O2, RA, O2, QF0, QF0, O2, RA, O2, QD,  
+QD, O2, RA, O2, QF, QF, O2, BM, O2, QD, QD, O2, BM, O2, QF, QF, O2, BM, O2,  
+QD, QD1, O2, RA, O2, QF1, QF1, O2, RA, O2, QD1, 
+
+QD1, O2, RA, O2, QF1, QF1,  
+O2, RA, O2, QD1, QD, O2, BM, O2, QF, QF, O2, BM, O2, QD, QD, O2, BM, O2,  
+QF, QF, O2, RA, O2, QD, QD, O2, RA, O2, QF0, QF0, O2, RA, O2, QD, QD, O2,  
+RA, O2, QF, QF, O2, BM, O2, QD, QD, O2, BM, O2, QF, QF, O2, BM, O2, QD,  
+QD1, O2, RA, O2, QF1, QF1, O2, RA, O2, QD1, 
+
+QD1, O2, RA, O2, QF1, QF1, O2,  
+RA, O2, QD1, QD, O2, BM, O2, QF, QF, O2, BM, O2, QD, QD, O2, BM, O2, QF,  
+QF, O2, RA, O2, QD, QD, O2, RA, O2, QF0, QF0, O2, RA, O2, QD, QD, O2, RA,  
+O2, QF, QF, O2, BM, O2, QD, QD, O2, BM, O2, QF, QF, O2, BM, O2, QD, QD1,  
+O2, RA, O2, QF1, QF1, O2, RA, O2, QD1, 
+
+QD1, O2, RA, O2, QF1, QF1, O2, RA,  
+O2, QD1, QD, O2, BM, O2, QF, QF, O2, BM, O2, QD, QD, O2, BM, O2, QF, QF,  
+O2, RA, O2, QD, QD, O2, RA, O2, QF0, QF0, O2, RA, O2, QD, QD, O2, RA, O2,  
+QF, QF, O2, BM, O2, QD, QD, O2, BM, O2, QF, QF, O2, BM, O2, QD, QD1, O2,  
+RA, O2, QF1, QF1, O2, RA, O2, QD1);

@@ -1,0 +1,20 @@
+!MAC edition
+!CHDIR, DIR = "/Users/Bell/GIT_REPOS/8shape/MADX/lattices/";
+!CALL FILE = "8-shape (48 mags 270 deg) resonant.seq";
+!WIN edition
+CHDIR, DIR = "C:\GIT_REPOS\QFS_ring\MADX\1.Sequences";
+CALL FILE = "QFS_LATTICE_16__full_ring.seq";
+TITLE, "Twiss in QFS Lattice 16";
+
+beam, MASS=1.862988122,CHARGE=1, ENERGY=2.132988122,
+      EX=2e-05, EY=2e-05, SIGE=0.001;
+
+USE, PERIOD = MACHINE;
+!CHDIR, DIR = "/Users/Bell/GIT_REPOS/8shape/MADX";
+CHDIR, DIR = "C:\GIT_REPOS\QFS_ring\MADX";
+Twiss;
+TWISS, file=tbl/twiss.tbl;
+plot, haxis=s, vaxis1=betx,bety, vaxis2=dx, colour=100, style=1, noversion, file=img/twiss;
+stop;
+!twiss,deltap=-0.0001:0.0001:0.00005;
+!plot,table=summ,haxis=q1,vaxis=q2;
