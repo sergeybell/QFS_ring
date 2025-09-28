@@ -1,0 +1,59 @@
+!+
+! Translated from MADX to Bmad by madx_to_bmad.py
+! File: 8-shape (48 mags 270 deg) resonant.seq
+!-
+
+
+!TITLE Converted from LATTICE EDITOR: 8-shape (48 mags 270 deg) resonant.opt[*].  Fri May 16 15:58:46 2025
+
+!  Kinetic energy=12444.7 MeV, mass=931.494 MeV
+!  BetaX=14.8769 m,  AlphaX=-5.28878e-13,  BetaY=17.9833 m,  AlphaY=8.87047e-15
+!  DispX=0 m,  DispPX=0,  DispY=0 m,  DispPY=0
+
+bm1: sbend, l = 2.427635, angle = 0.09817478893
+bm2: sbend, l = 2.427635, angle = -0.09817478893
+od: drift, l = 2.47
+obm: drift, l = 0.665
+obmbm: drift, l = 0.3
+qd: quadrupole, l = 0.235, k1 = -0.4428235459
+qf1: quadrupole, l = 0.235, k1 = 0.5826802974
+qf2: quadrupole, l = 0.235, k1 = 0.3735130112
+qds: quadrupole, l = 0.235, k1 = -0.4428235459
+qfs1: quadrupole, l = 0.235, k1 = 0.3684579479
+
+MACHINE: LINE=(
+
+	  QD, OBM, BM1, OBMBM, BM1, OBM, QF2,
+          QF2, OBM, BM1, OBMBM,BM1, OBM, QD, QD, OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM,BM1, OBM, QD, QD, OBM, BM1,
+          OBMBM, BM1, OBM, QF2, QF2, OBM, BM1, OBMBM,BM1, OBM, QD, QD, OBM, BM1, OBMBM, BM1, OBM, QF2, QF2, OBM, BM1, OBMBM,BM1,
+          OBM, QD, QD, OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM,BM1, OBM, QD, QD, OBM, BM1, OBMBM, BM1, OBM, QF2,
+          QF2, OBM, BM1, OBMBM,BM1, OBM, QD,
+
+	  QDs, OD, QFs1, QFs1, OD, QDs, QDs, OD, QFs1, QFs1, OD, QDs,QDs, OD, QFs1, QFs1, OD,
+          QDs, QDs, OD, QFs1, QFs1, OD, QDs, QDs, OD, QFs1,QFs1, OD, QDs, QDs, OD, QFs1, QFs1, OD, QDs, QDs, OD, QFs1, QFs1, OD,
+          QDs,QDs, OD, QFs1, QFs1, OD, QDs, QDs, OD, QFs1, QFs1, OD, QDs, QDs, OD, QFs1,QFs1, OD, QDs, QDs, OD, QFs1, QFs1, OD,
+          QDs, QDs, OD, QFs1, QFs1, OD, QDs,
+
+	  QD, OBM, BM2, OBMBM, BM2, OBM, QF2, QF2, OBM, BM2, OBMBM, BM2, OBM, QD, QD,OBM, BM2,
+          OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,OBM, BM2, OBMBM, BM2, OBM, QF2, QF2, OBM, BM2, OBMBM, BM2,
+          OBM, QD, QD,OBM, BM2, OBMBM, BM2, OBM, QF2, QF2, OBM, BM2, OBMBM, BM2, OBM, QD, QD,OBM, BM2, OBMBM, BM2, OBM, QF1, QF1,
+          OBM, BM2, OBMBM, BM2, OBM, QD, QD,OBM, BM2, OBMBM, BM2, OBM, QF2, QF2, OBM, BM2, OBMBM, BM2, OBM, QD, QD,OBM, BM2,
+          OBMBM, BM2, OBM, QF2, QF2, OBM, BM2, OBMBM, BM2, OBM, QD, QD,OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2,
+          OBM, QD, QD,OBM, BM2, OBMBM, BM2, OBM, QF2, QF2, OBM, BM2, OBMBM, BM2, OBM, QD, QD,OBM, BM2, OBMBM, BM2, OBM, QF2, QF2,
+          OBM, BM2, OBMBM, BM2, OBM, QD, QD,OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,OBM, BM2,
+          OBMBM, BM2, OBM, QF2, QF2, OBM, BM2, OBMBM, BM2, OBM, QD,
+
+	  QDs,OD, QFs1, QFs1, OD, QDs, QDs, OD, QFs1, QFs1, OD, QDs,
+          QDs, OD, QFs1, QFs1,OD, QDs, QDs, OD, QFs1, QFs1, OD, QDs, QDs, OD, QFs1, QFs1, OD, QDs, QDs,OD, QFs1, QFs1, OD, QDs,
+          QDs, OD, QFs1, QFs1, OD, QDs, QDs, OD, QFs1, QFs1,OD, QDs, QDs, OD, QFs1, QFs1, OD, QDs, QDs, OD, QFs1, QFs1, OD, QDs,
+          QDs,OD, QFs1, QFs1, OD, QDs, QDs, OD, QFs1, QFs1, OD, QDs,
+
+	  QD, OBM, BM1, OBMBM, BM1, OBM, QF2, QF2, OBM, BM1, OBMBM,BM1, OBM, QD, QD, OBM, BM1, OBMBM, BM1, OBM,
+          QF1, QF1, OBM, BM1, OBMBM,BM1, OBM, QD, QD, OBM, BM1, OBMBM, BM1, OBM, QF2, QF2, OBM, BM1, OBMBM,BM1, OBM, QD, QD, OBM,
+          BM1, OBMBM, BM1, OBM, QF2, QF2, OBM, BM1, OBMBM,BM1, OBM, QD, QD, OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM,
+          BM1, OBM, QD, QD, OBM, BM1, OBMBM, BM1, OBM, QF2, QF2, OBM, BM1, OBMBM,BM1, OBM, QD)
+
+
+use, machine
+
+parameter[E_tot] = 13.37618406 * 1e9

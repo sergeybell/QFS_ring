@@ -1,0 +1,507 @@
+!+
+! Translated from MADX to Bmad by madx_to_bmad.py
+! File: Gold NICA.seq
+!-
+
+
+!TITLE Converted from LATTICE EDITOR: 0011853_b2_coupling_chromaticity_da.opt[*].  Mon Nov 22 12:05:18 2021
+
+!  Kinetic energy=11221.5 MeV, mass=2322.84 MeV
+!  BetaX=0.6 m,  AlphaX=0,  BetaY=0.6 m,  AlphaY=0
+!  DispX=0 m,  DispPX=0,  DispY=0 m,  DispPY=0
+hd: monitor
+mb2l: multipole, k2l = 0.05750859885
+bh: sbend, l = 1.94, angle = 0.07853981634, e1 = 0.03926990817, hgap = 0.03586152553, fint = 0.5, e2 = 0.03926990817
+omc: drift, l = 0.3
+oqlbm: drift, l = 0.665
+oqlbm1: drift, l = 0.675
+oqlbm2: drift, l = 0.7125
+obmbm: drift, l = 0.3
+obmmc: drift, l = 0.289
+obmmc1: drift, l = 0.3365
+obmmc2: drift, l = 0.299
+omcql: drift, l = 0.076
+okm1: drift, l = 4.4525
+osm1: drift, l = 2.49
+okm1mc: drift, l = 0.129
+osm1mc: drift, l = 2.134
+osm2: drift, l = 2.49
+okm2: drift, l = 4.4525
+osm2mc: drift, l = 0.124
+okm2mc: drift, l = 0.129
+obv12: drift, l = 2.52301481
+osw3: drift, l = 4.5675
+osw2: drift, l = 8.1
+osw1: drift, l = 3.98475
+ose2: drift, l = 8.1
+ose1: drift, l = 10.0545
+one3: drift, l = 1.8975
+one2: drift, l = 8.1
+one1: drift, l = 10.0545
+onw3: drift, l = 3.5
+onw2: drift, l = 8.1
+onw1: drift, l = 10.0545
+oo1: drift, l = 0.3225
+oo2: drift, l = 0.7375
+oq0: drift, l = 0.2
+oq1: drift, l = 0.1
+oq2: drift, l = 0.1
+oq3: drift, l = 0.1846151933
+oq4: drift, l = 1.54
+oq5: drift, l = 0.415
+oq6: drift, l = 0.11787
+o85: drift, l = 0.085
+oqlbmd: drift, l = 0.215
+obmmcomcomcql: drift, l = 0.215
+omiss1: drift, l = 5.1815
+omiss2: drift, l = 5.144
+omiss3: drift, l = 5.144
+omiss4: drift, l = 5.1815
+oqlkm1: drift, l = 0.6
+oqlsm1: drift, l = 0.52
+oqlsm2: drift, l = 2.53
+oqlkm2: drift, l = 0.6
+osw3o85: drift, l = 4.4825
+ose3o85: drift, l = 12.915
+one3o85: drift, l = 1.8125
+onw3o85: drift, l = 3.415
+h_bv1: monitor
+h_bv2: monitor
+bv1e: sbend, l = 1.38, angle = -0.04100340928, ref_tilt = 1.570796327
+bv1w: sbend, l = 1.38, angle = -0.04100340928, ref_tilt = 1.570796327
+bv2e2: sbend, l = 1.38, angle = 0.04100340928, ref_tilt = 1.570796327
+bv2w2: sbend, l = 1.38, angle = 0.04100340928, ref_tilt = 1.570796327
+bv3e2: sbend, l = 1.38, angle = 0.04100340928, ref_tilt = 1.570796327
+bv3w2: sbend, l = 1.38, angle = 0.04100340928, ref_tilt = 1.570796327
+bv4e: sbend, l = 1.38, angle = -0.04100340928, ref_tilt = 1.570796327
+bv4w: sbend, l = 1.38, angle = -0.04100340928, ref_tilt = 1.570796327
+hq: monitor
+hqff: monitor
+qff6w: quadrupole, l = 0.945, k1 = -0.4320256018
+qff5w: quadrupole, l = 1.415, k1 = 0.432038535
+qff4w: quadrupole, l = 0.68, k1 = -0.4309241608
+q1w2: quadrupole, l = 0.545, k1 = -0.5144561001
+q2w2: quadrupole, l = 0.59, k1 = 0.5206704002
+q3w2: quadrupole, l = 0.56, k1 = 0.5101517326
+q4w2: quadrupole, l = 0.67, k1 = -0.5166681483
+q5w2: quadrupole, l = 0.69, k1 = 0.5185577457
+q6w2: quadrupole, l = 0.785, k1 = -0.5184853392
+q7w2: quadrupole, l = 0.375, k1 = 0.5100182514
+q8w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q9w2: quadrupole, l = 0.45, k1 = 0.5165649809
+q10w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q11w2: quadrupole, l = 0.47, k1 = 0.5148373645
+q12w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q13w2: quadrupole, l = 0.47, k1 = 0.5148373645
+q14w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q15w2: quadrupole, l = 0.47, k1 = 0.5148373645
+q16w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q17w2: quadrupole, l = 0.47, k1 = 0.5148373645
+q18w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q19w2: quadrupole, l = 0.47, k1 = 0.5148373645
+q20w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q21w2: quadrupole, l = 0.47, k1 = 0.5148373645
+q22w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q23w2: quadrupole, l = 0.47, k1 = 0.5148373645
+q24w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q25w2: quadrupole, l = 0.47, k1 = 0.5148373645
+q26w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q27w2: quadrupole, l = 0.45, k1 = 0.5165649809
+q28w2: quadrupole, l = 0.47, k1 = -0.5037116682
+q29w2: quadrupole, l = 0.375, k1 = 0.5100182514
+q30w2: quadrupole, l = 0.785, k1 = -0.5598904054
+q31w2: quadrupole, l = 0.69, k1 = 0.5533724081
+q32w2: quadrupole, l = 0.67, k1 = -0.5151201433
+q33w2: quadrupole, l = 0.56, k1 = 0.448408444
+q34w2: quadrupole, l = 0.59, k1 = 0.5604186753
+q35w2: quadrupole, l = 0.545, k1 = -0.5101898621
+qff3w: quadrupole, l = 0.68, k1 = 0.4296562785
+qff2w: quadrupole, l = 1.415, k1 = -0.432721162
+qff1w: quadrupole, l = 0.945, k1 = 0.4355908741
+qff6e: quadrupole, l = 0.945, k1 = -0.4280619135
+qff5e: quadrupole, l = 1.415, k1 = 0.4323426767
+qff4e: quadrupole, l = 0.68, k1 = -0.437247005
+q1e2: quadrupole, l = 0.545, k1 = -0.4717971327
+q2e2: quadrupole, l = 0.59, k1 = 0.4683706813
+q3e2: quadrupole, l = 0.56, k1 = 0.5257938211
+q4e2: quadrupole, l = 0.67, k1 = -0.5050912402
+q5e2: quadrupole, l = 0.69, k1 = 0.4700434233
+q6e2: quadrupole, l = 0.785, k1 = -0.4614426437
+q7e2: quadrupole, l = 0.375, k1 = 0.5100182514
+q8e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q9e2: quadrupole, l = 0.45, k1 = 0.5165649809
+q10e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q11e2: quadrupole, l = 0.47, k1 = 0.5148373645
+q12e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q13e2: quadrupole, l = 0.47, k1 = 0.5148373645
+q14e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q15e2: quadrupole, l = 0.47, k1 = 0.5148373645
+q16e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q17e2: quadrupole, l = 0.47, k1 = 0.5148373645
+q18e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q19e2: quadrupole, l = 0.47, k1 = 0.5148373645
+q20e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q21e2: quadrupole, l = 0.47, k1 = 0.5148373645
+q22e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q23e2: quadrupole, l = 0.47, k1 = 0.5148373645
+q24e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q25e2: quadrupole, l = 0.47, k1 = 0.5148373645
+q26e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q27e2: quadrupole, l = 0.45, k1 = 0.5165649809
+q28e2: quadrupole, l = 0.47, k1 = -0.5037116682
+q29e2: quadrupole, l = 0.375, k1 = 0.5100182514
+q30e2: quadrupole, l = 0.785, k1 = -0.5184853392
+q31e2: quadrupole, l = 0.69, k1 = 0.5185577457
+q32e2: quadrupole, l = 0.67, k1 = -0.5166681483
+q33e2: quadrupole, l = 0.56, k1 = 0.5101517326
+q34e2: quadrupole, l = 0.59, k1 = 0.5206704002
+q35e2: quadrupole, l = 0.545, k1 = -0.5144561001
+qff3e: quadrupole, l = 0.68, k1 = 0.4309241608
+qff2e: quadrupole, l = 1.415, k1 = -0.432038535
+qff1e: quadrupole, l = 0.945, k1 = 0.4320256018
+kmc: kicker, l = 0.15, hkick = 0, vkick = 0
+khv2w: kicker, l = 0, hkick = 0, vkick = 0
+khv1w2: kicker, l = 0, hkick = 0, vkick = 0
+khv2w2: kicker, l = 0, hkick = 0, vkick = 0
+khv3w2: kicker, l = 0, hkick = 0, vkick = 0
+khv4w2: kicker, l = 0, hkick = 0, vkick = 0
+khv7w2: kicker, l = 0, hkick = 0, vkick = 0
+khv8w2: kicker, l = 0, hkick = 0, vkick = 0
+khv9w2: kicker, l = 0, hkick = 0, vkick = 0
+khv10w2: kicker, l = 0, hkick = 0, vkick = 0
+khv11w2: kicker, l = 0, hkick = 0, vkick = 0
+khv12w2: kicker, l = 0, hkick = 0, vkick = 0
+khv13w2: kicker, l = 0, hkick = 0, vkick = 0
+khv14w2: kicker, l = 0, hkick = 0, vkick = 0
+khv15w2: kicker, l = 0, hkick = 0, vkick = 0
+khv16w2: kicker, l = 0, hkick = 0, vkick = 0
+khv17w2: kicker, l = 0, hkick = 0, vkick = 0
+khv18w2: kicker, l = 0, hkick = 0, vkick = 0
+khv19w2: kicker, l = 0, hkick = 0, vkick = 0
+khv20w2: kicker, l = 0, hkick = 0, vkick = 0
+khv21w2: kicker, l = 0, hkick = 0, vkick = 0
+khv22w2: kicker, l = 0, hkick = 0, vkick = 0
+khv23w2: kicker, l = 0, hkick = 0, vkick = 0
+khv24w2: kicker, l = 0, hkick = 0, vkick = 0
+khv25w2: kicker, l = 0, hkick = 0, vkick = 0
+khv26w2: kicker, l = 0, hkick = 0, vkick = 0
+khv27w2: kicker, l = 0, hkick = 0, vkick = 0
+khv28w2: kicker, l = 0, hkick = 0, vkick = 0
+khv29w2: kicker, l = 0, hkick = 0, vkick = 0
+khv30w2: kicker, l = 0, hkick = 0, vkick = 0
+khv31w2: kicker, l = 0, hkick = 0, vkick = 0
+khv32w2: kicker, l = 0, hkick = 0, vkick = 0
+khv33w2: kicker, l = 0, hkick = 0, vkick = 0
+khv1w: kicker, l = 0, hkick = 0, vkick = 0
+khv2e: kicker, l = 0, hkick = 0, vkick = 0
+khv1e2: kicker, l = 0, hkick = 0, vkick = 0
+khv2e2: kicker, l = 0, hkick = 0, vkick = 0
+khv3e2: kicker, l = 0, hkick = 0, vkick = 0
+khv4e2: kicker, l = 0, hkick = 0, vkick = 0
+khv7e2: kicker, l = 0, hkick = 0, vkick = 0
+khv8e2: kicker, l = 0, hkick = 0, vkick = 0
+khv9e2: kicker, l = 0, hkick = 0, vkick = 0
+khv10e2: kicker, l = 0, hkick = 0, vkick = 0
+khv11e2: kicker, l = 0, hkick = 0, vkick = 0
+khv12e2: kicker, l = 0, hkick = 0, vkick = 0
+khv13e2: kicker, l = 0, hkick = 0, vkick = 0
+khv14e2: kicker, l = 0, hkick = 0, vkick = 0
+khv15e2: kicker, l = 0, hkick = 0, vkick = 0
+khv16e2: kicker, l = 0, hkick = 0, vkick = 0
+khv17e2: kicker, l = 0, hkick = 0, vkick = 0
+khv18e2: kicker, l = 0, hkick = 0, vkick = 0
+khv19e2: kicker, l = 0, hkick = 0, vkick = 0
+khv20e2: kicker, l = 0, hkick = 0, vkick = 0
+khv21e2: kicker, l = 0, hkick = 0, vkick = 0
+khv22e2: kicker, l = 0, hkick = 0, vkick = 0
+khv23e2: kicker, l = 0, hkick = 0, vkick = 0
+khv24e2: kicker, l = 0, hkick = 0, vkick = 0
+khv25e2: kicker, l = 0, hkick = 0, vkick = 0
+khv26e2: kicker, l = 0, hkick = 0, vkick = 0
+khv27e2: kicker, l = 0, hkick = 0, vkick = 0
+khv28e2: kicker, l = 0, hkick = 0, vkick = 0
+khv29e2: kicker, l = 0, hkick = 0, vkick = 0
+khv30e2: kicker, l = 0, hkick = 0, vkick = 0
+khv31e2: kicker, l = 0, hkick = 0, vkick = 0
+khv32e2: kicker, l = 0, hkick = 0, vkick = 0
+khv33e2: kicker, l = 0, hkick = 0, vkick = 0
+khv1e: kicker, l = 0, hkick = 0, vkick = 0
+mc2wq: multipole, tilt = 0.7853981634
+mc2ws: multipole
+mc2wo: multipole
+mc1w2q: multipole, tilt = 0.7853981634
+mc1w2s: multipole
+mc1w2o: multipole
+mc2w2q: multipole, tilt = 0.7853981634
+mc2w2s: multipole
+mc2w2o: multipole, k3l = -3
+mc3w2q: multipole, tilt = 0.7853981634
+mc3w2s: multipole
+mc3w2o: multipole, k3l = -6
+mc4w2q: multipole, tilt = 0.7853981634
+mc4w2s: multipole
+mc4w2o: multipole, k3l = 4
+mc7w2q: multipole, tilt = 0.7853981634
+mc7w2s: multipole
+mc7w2o: multipole
+mc8w2q: multipole, tilt = 0.7853981634
+mc8w2s: multipole
+mc8w2o: multipole
+mc9w2q: multipole, tilt = 0.7853981634
+mc9w2s: multipole
+mc9w2o: multipole
+mc10w2q: multipole
+mc10w2s: multipole, k2l = -1.05624831
+mc10w2o: multipole
+mc11w2q: multipole, tilt = 0.7853981634
+mc11w2s: multipole, k2l = 0.2436156071
+mc11w2o: multipole
+mc12w2q: multipole, tilt = 0.7853981634
+mc12w2s: multipole, k2l = -1.07475952
+mc12w2o: multipole
+mc13w2q: multipole, tilt = 0.7853981634
+mc13w2s: multipole, k2l = 0.2345129729
+mc13w2o: multipole
+mc14w2q: multipole
+mc14w2s: multipole, k2l = -1.05624831
+mc14w2o: multipole
+mc15w2q: multipole, tilt = 0.7853981634
+mc15w2s: multipole, k2l = 0.2436156071
+mc15w2o: multipole
+mc16w2q: multipole
+mc16w2s: multipole, k2l = -1.07475952
+mc16w2o: multipole
+mc17w2q: multipole, tilt = 0.7853981634
+mc17w2s: multipole, k2l = 0.2345129729
+mc17w2o: multipole
+mc18w2q: multipole, tilt = 0.7853981634
+mc18w2s: multipole, k2l = -1.05624831
+mc18w2o: multipole
+mc19w2q: multipole, tilt = 0.7853981634
+mc19w2s: multipole, k2l = 0.2436156071
+mc19w2o: multipole
+mc20w2q: multipole
+mc20w2s: multipole, k2l = -1.07475952
+mc20w2o: multipole
+mc21w2q: multipole, tilt = 0.7853981634
+mc21w2s: multipole, k2l = 0.2345129729
+mc21w2o: multipole
+mc22w2q: multipole, tilt = 0.7853981634
+mc22w2s: multipole, k2l = -1.05624831
+mc22w2o: multipole
+mc23w2q: multipole, tilt = 0.7853981634
+mc23w2s: multipole, k2l = 0.2436156071
+mc23w2o: multipole
+mc24w2q: multipole, tilt = 0.7853981634
+mc24w2s: multipole, k2l = -1.07475952
+mc24w2o: multipole
+mc25w2q: multipole, tilt = 0.7853981634
+mc25w2s: multipole, k2l = 0.2345129729
+mc25w2o: multipole
+mc26w2q: multipole, tilt = 0.7853981634
+mc26w2s: multipole
+mc26w2o: multipole
+mc27w2q: multipole, tilt = 0.7853981634
+mc27w2s: multipole
+mc27w2o: multipole
+mc28w2q: multipole
+mc28w2s: multipole
+mc28w2o: multipole
+mc29w2q: multipole, tilt = 0.7853981634
+mc29w2s: multipole
+mc29w2o: multipole
+mc30w2q: multipole, tilt = 0.7853981634, k1l = -0.008627288772
+mc30w2s: multipole
+mc30w2o: multipole, k3l = 4
+mc31w2q: multipole, tilt = 0.7853981634, k1l = -0.07156188118
+mc31w2s: multipole
+mc31w2o: multipole, k3l = -6
+mc32w2q: multipole, tilt = 0.7853981634, k1l = 0.06967009579
+mc32w2s: multipole
+mc32w2o: multipole, k3l = -3
+mc33w2q: multipole, tilt = 0.7853981634, k1l = -0.008380854756
+mc33w2s: multipole
+mc33w2o: multipole
+mc1wq: multipole, tilt = 0.7853981634, k1l = 0.00774494192
+mc1ws: multipole
+mc1wo: multipole
+mc2eq: multipole, tilt = 0.7853981634, k1l = -0.00767004269
+mc2es: multipole
+mc2eo: multipole
+mc1e2q: multipole, tilt = 0.7853981634, k1l = 0.01557443874
+mc1e2s: multipole
+mc1e2o: multipole
+mc2e2q: multipole, tilt = 0.7853981634, k1l = 0.0002200791579
+mc2e2s: multipole
+mc2e2o: multipole, k3l = -3
+mc3e2q: multipole, tilt = 0.7853981634, k1l = 0.002054509058
+mc3e2s: multipole
+mc3e2o: multipole, k3l = -6
+mc4e2q: multipole, tilt = 0.7853981634, k1l = -0.006943111086
+mc4e2s: multipole
+mc4e2o: multipole, k3l = 4
+mc7e2q: multipole, tilt = 0.7853981634
+mc7e2s: multipole
+mc7e2o: multipole
+mc8e2q: multipole, tilt = 0.7853981634
+mc8e2s: multipole
+mc8e2o: multipole
+mc9e2q: multipole, tilt = 0.7853981634
+mc9e2s: multipole
+mc9e2o: multipole
+mc10e2q: multipole, tilt = 0.7853981634
+mc10e2s: multipole, k2l = -1.05624831
+mc10e2o: multipole
+mc11e2q: multipole, tilt = 0.7853981634
+mc11e2s: multipole, k2l = 0.2436156071
+mc11e2o: multipole
+mc12e2q: multipole, tilt = 0.7853981634
+mc12e2s: multipole, k2l = -1.07475952
+mc12e2o: multipole
+mc13e2q: multipole, tilt = 0.7853981634
+mc13e2s: multipole, k2l = 0.2345129729
+mc13e2o: multipole
+mc14e2q: multipole, tilt = 0.7853981634
+mc14e2s: multipole, k2l = -1.05624831
+mc14e2o: multipole
+mc15e2q: multipole, tilt = 0.7853981634
+mc15e2s: multipole, k2l = 0.2436156071
+mc15e2o: multipole
+mc16e2q: multipole, tilt = 0.7853981634
+mc16e2s: multipole, k2l = -1.07475952
+mc16e2o: multipole
+mc17e2q: multipole, tilt = 0.7853981634
+mc17e2s: multipole, k2l = 0.2345129729
+mc17e2o: multipole
+mc18e2q: multipole, tilt = 0.7853981634
+mc18e2s: multipole, k2l = -1.05624831
+mc18e2o: multipole
+mc19e2q: multipole, tilt = 0.7853981634
+mc19e2s: multipole, k2l = 0.2436156071
+mc19e2o: multipole
+mc20e2q: multipole, tilt = 0.7853981634
+mc20e2s: multipole, k2l = -1.07475952
+mc20e2o: multipole
+mc21e2q: multipole, tilt = 0.7853981634
+mc21e2s: multipole, k2l = 0.2345129729
+mc21e2o: multipole
+mc22e2q: multipole, tilt = 0.7853981634
+mc22e2s: multipole, k2l = -1.05624831
+mc22e2o: multipole
+mc23e2q: multipole, tilt = 0.7853981634
+mc23e2s: multipole, k2l = 0.2436156071
+mc23e2o: multipole
+mc24e2q: multipole, tilt = 0.7853981634
+mc24e2s: multipole, k2l = -1.07475952
+mc24e2o: multipole
+mc25e2q: multipole, tilt = 0.7853981634
+mc25e2s: multipole, k2l = 0.2345129729
+mc25e2o: multipole
+mc26e2q: multipole, tilt = 0.7853981634
+mc26e2s: multipole
+mc26e2o: multipole
+mc27e2q: multipole, tilt = 0.7853981634
+mc27e2s: multipole
+mc27e2o: multipole
+mc28e2q: multipole
+mc28e2s: multipole
+mc28e2o: multipole
+mc29e2q: multipole, tilt = 0.7853981634
+mc29e2s: multipole
+mc29e2o: multipole
+mc30e2q: multipole, tilt = 0.7853981634
+mc30e2s: multipole
+mc30e2o: multipole, k3l = 4
+mc31e2q: multipole, tilt = 0.7853981634
+mc31e2s: multipole
+mc31e2o: multipole, k3l = -6
+mc32e2q: multipole, tilt = 0.7853981634
+mc32e2s: multipole
+mc32e2o: multipole, k3l = -3
+mc33e2q: multipole, tilt = 0.7853981634
+mc33e2s: multipole
+mc33e2o: multipole
+mc1eq: multipole, tilt = 0.7853981634
+mc1es: multipole
+mc1eo: multipole
+c_mpd: solenoid, l = 5.25, ks = 0.01123349145
+c_spd: solenoid, l = 5.25, ks = 0
+c_ec: solenoid, l = 6, ks = 0.004493396582
+arf3w21: rfcavity, l = 2.085, voltage = 0 * 1e6, phi0 = --0.5 - 0.5, harmon = 65
+arf3w22: rfcavity, l = 1.9325, voltage = 0 * 1e6, phi0 = --0.5 - 0.5, harmon = 65
+arf3w25: rfcavity, l = 1.841, voltage = 0 * 1e6, phi0 = --0.5 - 0.5, harmon = 65
+
+MACHINE: LINE=(C_SPD, HQFF, QFF6W, HQFF, OO1, HQFF, QFF5W, HQFF, OO2,HQFF, QFF4W, HQFF, OQ2, KMC, KHV2W, MC2WQ, MC2WS,
+          MC2WO, KMC, OQ0, H_BV1,BV4W, H_BV1, OBV12, H_BV2, BV3W2, H_BV2, OQ1, KMC, KHV1W2, MC1W2Q, MC1W2S,MC1W2O, KMC, OQ3,
+          OSW1, ARF3W21, OSW1, OQ1, OMC, OQ4, OSW2, HQFF, Q1W2,HQFF, OQ1, KMC, KHV2W2, MC2W2Q, MC2W2S, MC2W2O, KMC, OQ1, HQFF,
+          Q2W2, HQFF,OQ5, HQFF, Q3W2, HQFF, OQ1, KMC, KHV3W2, MC3W2Q, MC3W2S, MC3W2O, KMC, OQ1,HQFF, Q4W2, HQFF, OSW3, ARF3W22,
+          ARF3W22, OSW3O85, HQFF, Q5W2, HQFF, OQ1,KMC, KHV4W2, MC4W2Q, MC4W2S, MC4W2O, KMC, OQ6, HQFF, Q6W2, HQFF, O85,OQLBMD,
+          MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC1, KMC,KHV7W2, MC7W2Q, MC7W2S, MC7W2O, KMC, OMCQL, HQ,
+          Q7W2, HQ, OMISS1, KMC,KHV8W2, MC8W2Q, MC8W2S, MC8W2O, KMC, OMCQL, HQ, Q8W2, HQ, OMISS2, KMC,KHV9W2, MC9W2Q, MC9W2S,
+          MC9W2O, KMC, OMCQL, HQ, Q9W2, HQ, OQLBM1, MB2L, HD,BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV10W2,
+          MC10W2Q,MC10W2S, MC10W2O, KMC, OMCQL, HQ, Q10W2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L,OBMBM, MB2L, HD, BH, HD, MB2L,
+          OBMMC, KMC, KHV11W2, MC11W2Q, MC11W2S,MC11W2O, KMC, OMCQL, HQ, Q11W2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM,MB2L,
+          HD, BH, HD, MB2L, OBMMC, KMC, KHV12W2, MC12W2Q, MC12W2S, MC12W2O,KMC, OMCQL, HQ, Q12W2, HQ, OQLBM, MB2L, HD, BH, HD,
+          MB2L, OBMBM, MB2L, HD,BH, HD, MB2L, OBMMC, KMC, KHV13W2, MC13W2Q, MC13W2S, MC13W2O, KMC, OMCQL,HQ, Q13W2, HQ, OQLBM,
+          MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD,MB2L, OBMMC, KMC, KHV14W2, MC14W2Q, MC14W2S, MC14W2O, KMC, OMCQL, HQ,
+         Q14W2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L,OBMMC, KMC, KHV15W2, MC15W2Q, MC15W2S, MC15W2O,
+          KMC, OMCQL, HQ, Q15W2, HQ,OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC,KHV16W2, MC16W2Q,
+          MC16W2S, MC16W2O, KMC, OMCQL, HQ, Q16W2, HQ, OQLBM, MB2L,HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC,
+          KHV17W2,MC17W2Q, MC17W2S, MC17W2O, KMC, OMCQL, HQ, Q17W2, HQ, OQLBM, MB2L, HD, BH,HD, MB2L, OBMBM, MB2L, HD, BH, HD,
+          MB2L, OBMMC, KMC, KHV18W2, MC18W2Q,MC18W2S, MC18W2O, KMC, OMCQL, HQ, Q18W2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L,OBMBM,
+          MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV19W2, MC19W2Q, MC19W2S,MC19W2O, KMC, OMCQL, HQ, Q19W2, HQ, OQLBM, MB2L, HD, BH,
+          HD, MB2L, OBMBM,MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV20W2, MC20W2Q, MC20W2S, MC20W2O,KMC, OMCQL, HQ, Q20W2, HQ,
+          OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD,BH, HD, MB2L, OBMMC, KMC, KHV21W2, MC21W2Q, MC21W2S, MC21W2O, KMC,
+          OMCQL,HQ, Q21W2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD,MB2L, OBMMC, KMC, KHV22W2, MC22W2Q,
+          MC22W2S, MC22W2O, KMC, OMCQL, HQ,Q22W2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L,OBMMC, KMC,
+          KHV23W2, MC23W2Q, MC23W2S, MC23W2O, KMC, OMCQL, HQ, Q23W2, HQ,OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD,
+          MB2L, OBMMC, KMC,KHV24W2, MC24W2Q, MC24W2S, MC24W2O, KMC, OMCQL, HQ, Q24W2, HQ, OQLBM, MB2L,HD, BH, HD, MB2L, OBMBM,
+          MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV25W2,MC25W2Q, MC25W2S, MC25W2O, KMC, OMCQL, HQ, Q25W2, HQ, OQLBM, MB2L, HD, BH,
+         HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV26W2, MC26W2Q,MC26W2S, MC26W2O, KMC, OMCQL, HQ, Q26W2, HQ,
+          OQLBM, MB2L, HD, BH, HD, MB2L,OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC2, KMC, KHV27W2, MC27W2Q, MC27W2S,MC27W2O, KMC,
+          OMCQL, HQ, Q27W2, HQ, OMISS3, KMC, KHV28W2, MC28W2Q, MC28W2S,MC28W2O, KMC, OMCQL, HQ, Q28W2, HQ, OMISS4, KMC, KHV29W2,
+          MC29W2Q, MC29W2S,MC29W2O, KMC, OMCQL, HQ, Q29W2, HQ, OQLBM2, MB2L, HD, BH, HD, MB2L, OBMBM,MB2L, HD, BH, HD, MB2L,
+          OBMMCOMCOMCQL, O85, HQFF, Q30W2, HQFF, OQ6, KMC,KHV30W2, MC30W2Q, MC30W2S, MC30W2O, KMC, OQ1, HQFF, Q31W2, HQFF,
+          ONW3O85,C_EC, ONW3, HQFF, Q32W2, HQFF, OQ1, KMC, KHV31W2, MC31W2Q, MC31W2S,MC31W2O, KMC, OQ1, HQFF, Q33W2, HQFF, OQ5,
+          HQFF, Q34W2, HQFF, OQ1, KMC,KHV32W2, MC32W2Q, MC32W2S, MC32W2O, KMC, OQ1, HQFF, Q35W2, HQFF, ONW2, OQ4,OMC, OQ1, ONW1,
+          OQ3, KMC, KHV33W2, MC33W2Q, MC33W2S, MC33W2O, KMC, OQ1,H_BV2, BV2W2, H_BV2, OBV12, H_BV1, BV1W, H_BV1, OQ0, KMC, KHV1W,
+          MC1WQ,MC1WS, MC1WO, KMC, OQ2, HQFF, QFF3W, HQFF, OO2, HQFF, QFF2W, HQFF, OO1,HQFF, QFF1W, HQFF, C_MPD, C_MPD, HQFF,
+          QFF6E, HQFF, OO1, HQFF, QFF5E, HQFF,OO2, HQFF, QFF4E, HQFF, OQ2, KMC, KHV2E, MC2EQ, MC2ES, MC2EO, KMC, OQ0,H_BV1, BV4E,
+          H_BV1, OBV12, H_BV2, BV3E2, H_BV2, OQ1, KMC, KHV1E2, MC1E2Q,MC1E2S, MC1E2O, KMC, OQ3, ONE1, OQ1, OMC, OQ4, ONE2, HQFF,
+          Q1E2, HQFF, OQ1,KMC, KHV2E2, MC2E2Q, MC2E2S, MC2E2O, KMC, OQ1, HQFF, Q2E2, HQFF, OQ5, HQFF,Q3E2, HQFF, OQ1, KMC,
+          KHV3E2, MC3E2Q, MC3E2S, MC3E2O, KMC, OQ1, HQFF, Q4E2,HQFF, ONE3, ARF3W25, ARF3W25, ARF3W25, ARF3W25, ARF3W25, ONE3O85,
+          HQFF,Q5E2, HQFF, OQ1, KMC, KHV4E2, MC4E2Q, MC4E2S, MC4E2O, KMC, OQ6, HQFF, Q6E2,HQFF, O85, OQLBMD, MB2L, HD, BH, HD,
+          MB2L, OBMBM, MB2L, HD, BH, HD, MB2L,OBMMC1, KMC, KHV7E2, MC7E2Q, MC7E2S, MC7E2O, KMC, OMCQL, HQ, Q7E2, HQ,OQLKM1, OKM1,
+          OKM1MC, KMC, KHV8E2, MC8E2Q, MC8E2S, MC8E2O, KMC, OMCQL, HQ,Q8E2, HQ, OQLSM1, OSM1, OSM1MC, KMC, KHV9E2, MC9E2Q,
+          MC9E2S, MC9E2O, KMC,OMCQL, HQ, Q9E2, HQ, OQLBM1, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH,HD, MB2L, OBMMC, KMC,
+          KHV10E2, MC10E2Q, MC10E2S, MC10E2O, KMC, OMCQL, HQ,Q10E2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD,
+          MB2L,OBMMC, KMC, KHV11E2, MC11E2Q, MC11E2S, MC11E2O, KMC, OMCQL, HQ, Q11E2, HQ,OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM,
+          MB2L, HD, BH, HD, MB2L, OBMMC, KMC,KHV12E2, MC12E2Q, MC12E2S, MC12E2O, KMC, OMCQL, HQ, Q12E2, HQ, OQLBM, MB2L,HD, BH,
+          HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV13E2,MC13E2Q, MC13E2S, MC13E2O, KMC, OMCQL, HQ, Q13E2, HQ,
+          OQLBM, MB2L, HD, BH,HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV14E2, MC14E2Q,MC14E2S, MC14E2O, KMC, OMCQL,
+          HQ, Q14E2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L,OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV15E2, MC15E2Q, MC15E2S,
+         MC15E2O, KMC, OMCQL, HQ, Q15E2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM,MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV16E2,
+          MC16E2Q, MC16E2S, MC16E2O,KMC, OMCQL, HQ, Q16E2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD,BH, HD, MB2L,
+          OBMMC, KMC, KHV17E2, MC17E2Q, MC17E2S, MC17E2O, KMC, OMCQL,HQ, Q17E2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L,
+          HD, BH, HD,MB2L, OBMMC, KMC, KHV18E2, MC18E2Q, MC18E2S, MC18E2O, KMC, OMCQL, HQ,Q18E2, HQ, OQLBM, MB2L, HD, BH, HD,
+          MB2L, OBMBM, MB2L, HD, BH, HD, MB2L,OBMMC, KMC, KHV19E2, MC19E2Q, MC19E2S, MC19E2O, KMC, OMCQL, HQ, Q19E2, HQ,OQLBM,
+          MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC,KHV20E2, MC20E2Q, MC20E2S, MC20E2O, KMC, OMCQL, HQ,
+          Q20E2, HQ, OQLBM, MB2L,HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV21E2,MC21E2Q, MC21E2S, MC21E2O,
+          KMC, OMCQL, HQ, Q21E2, HQ, OQLBM, MB2L, HD, BH,HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC, KHV22E2, MC22E2Q,
+         MC22E2S, MC22E2O, KMC, OMCQL, HQ, Q22E2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L,OBMBM, MB2L, HD, BH, HD, MB2L, OBMMC, KMC,
+          KHV23E2, MC23E2Q, MC23E2S,MC23E2O, KMC, OMCQL, HQ, Q23E2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM,MB2L, HD, BH, HD,
+          MB2L, OBMMC, KMC, KHV24E2, MC24E2Q, MC24E2S, MC24E2O,KMC, OMCQL, HQ, Q24E2, HQ, OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM,
+          MB2L, HD,BH, HD, MB2L, OBMMC, KMC, KHV25E2, MC25E2Q, MC25E2S, MC25E2O, KMC, OMCQL,HQ, Q25E2, HQ, OQLBM, MB2L, HD, BH,
+          HD, MB2L, OBMBM, MB2L, HD, BH, HD,MB2L, OBMMC, KMC, KHV26E2, MC26E2Q, MC26E2S, MC26E2O, KMC, OMCQL, HQ,Q26E2, HQ,
+          OQLBM, MB2L, HD, BH, HD, MB2L, OBMBM, MB2L, HD, BH, HD, MB2L,OBMMC2, KMC, KHV27E2, MC27E2Q, MC27E2S, MC27E2O, KMC,
+          OMCQL, HQ, Q27E2, HQ,OQLSM2, OSM2, OSM2MC, KMC, KHV28E2, MC28E2Q, MC28E2S, MC28E2O, KMC, OMCQL,HQ, Q28E2, HQ, OQLKM2,
+          OKM2, OKM2MC, KMC, KHV29E2, MC29E2Q, MC29E2S,MC29E2O, KMC, OMCQL, HQ, Q29E2, HQ, OQLBM2, MB2L, HD, BH, HD, MB2L, OBMBM,
+         MB2L, HD, BH, HD, MB2L, OBMMCOMCOMCQL, O85, HQFF, Q30E2, HQFF, OQ6, KMC,KHV30E2, MC30E2Q, MC30E2S, MC30E2O, KMC, OQ1,
+          HQFF, Q31E2, HQFF, OSE3O85,HQFF, Q32E2, HQFF, OQ1, KMC, KHV31E2, MC31E2Q, MC31E2S, MC31E2O, KMC, OQ1,HQFF, Q33E2, HQFF,
+          OQ5, HQFF, Q34E2, HQFF, OQ1, KMC, KHV32E2, MC32E2Q,MC32E2S, MC32E2O, KMC, OQ1, HQFF, Q35E2, HQFF, OSE2, OQ4, OMC, OQ1,
+          OSE1,OQ3, KMC, KHV33E2, MC33E2Q, MC33E2S, MC33E2O, KMC, OQ1, H_BV2, BV2E2,H_BV2, OBV12, H_BV1, BV1E, H_BV1, OQ0, KMC,
+          KHV1E, MC1EQ, MC1ES, MC1EO,KMC, OQ2, HQFF, QFF3E, HQFF, OO2, HQFF, QFF2E, HQFF, OO1, HQFF, QFF1E,HQFF, C_SPD)
+
+parameter[E_tot] = 13.54435861 * 1e9
+
+use, machine

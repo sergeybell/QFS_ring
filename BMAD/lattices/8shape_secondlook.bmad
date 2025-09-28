@@ -1,0 +1,109 @@
+!+
+! Translated from MADX to Bmad by madx_to_bmad.py
+! File: 8shape_firstlook
+!-
+
+
+!TITLE Converted from LATTICE EDITOR: 8-shape.opt[*].  Wed Jan 29 17:50:48 2025
+
+!  Kinetic energy=12444.7 MeV, mass=931.494 MeV
+!  BetaX=3.14265 m,  AlphaX=-0,  BetaY=20.5459 m,  AlphaY=0
+!  DispX=0 m,  DispPX=0,  DispY=0 m,  DispPY=0
+
+
+bm1: sbend, l = 1.94, angle = 0.0785396927
+bm2: sbend, l = 1.94, angle = -0.0785396927
+od: drift, l = 2.905
+obm: drift, l = 0.665
+obmbm: drift, l = 0.3
+qd: quadrupole, l = 0.235, k1 = -0.4820283702
+qf1: quadrupole, l = 0.235, k1 = 0.4710195657
+qds: quadrupole, l = 0.235, k1 = -0.4848367387
+qfs1: quadrupole, l = 0.235, k1 = 0.6146956984
+
+MACHINE: LINE=(
+	QD, 
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD, 
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD,
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD,
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD,
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD,
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD,
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD,
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD,
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD,
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD, 
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD,
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD, QD,
+	OBM, BM1, OBMBM, BM1, OBM, QF1, QF1, OBM, BM1, OBMBM, BM1, OBM, QD,
+	
+	QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs,
+
+
+	QD, 
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD, 
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD, 
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+	OBM, BM2, OBMBM, BM2, OBM, QF1, QF1, OBM, BM2, OBMBM, BM2, OBM, QD, QD,
+
+	QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs, QDs,
+	OD, QFs1, QFs1, OD, QDs)
+
+parameter[E_tot] = 13.37618406 * 1e9
+
+use, machine
+
+beginning[beta_a] = 3.14265
+beginning[beta_b] = 20.5459
+beginning[alpha_a] = -0
+beginning[alpha_a] = 0
+beginning[eta_x] = 0
+beginning[eta_y] = 0
+beginning[etap_x] = 0
+beginning[etap_y] = 0
